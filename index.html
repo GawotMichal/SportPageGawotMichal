@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script type="text/javascript" src="jquery3.3.1.js"></script>
+    <title>Napraw, wzmocnij, rozbuduj</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <ul class="nav nav-tabs nav-justified">
+          <li class="nav-item">
+            <a class="nav-link active" href="#!">Strona główna</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle bg-light text-dark" data-toggle="dropdown"
+                href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+                Co chcesz ćwiczyć?</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="klatka.html">Klatka</a>
+              <a class="dropdown-item" href="#!">Plecy</a>
+              <a class="dropdown-item" href="#!">Barki</a>
+              <a class="dropdown-item" href="#!">Biceps</a>
+              <a class="dropdown-item" href="#!">Triceps</a>
+              <a class="dropdown-item" href="#!">Brzuch</a>
+              <a class="dropdown-item" href="#!">Nogi</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#!" class="nav-link active">Sklep</a>
+          </li>
+          <li class="nav-item">
+            <a href="kontakt.html" class="nav-link active">Kontakt</a>
+          </li>
+        </ul>
+      </header>
+            <br>
+            <div class="slide-viewer">
+              <div class="col-12 slide-group">
+                <div class="row w-100">
+                  <div class="col-12 slide">
+                    <img src="grafika/klatka.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="row w-100">
+                  <div class="col-12 slide">
+                    <img src="grafika/barki.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="row w-100">
+                  <div class="col-12 slide">
+                    <img src="grafika/brzuch.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="row w-100">
+                  <div class="col-12 slide">
+                    <img src="grafika/plecy.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="row w-100">
+                  <div class="col-12 slide">
+                    <img src="grafika/biceps.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="row w-100">
+            <div class="col-6 offset-3 slide-buttons"></div>
+          </div>
+          <br><br>
+          <form id="formBMI" class="row w-100">
+            <div class="col-8 dane">
+              <label><b>Wzrost</b></label><br>
+              <input type="text" name="height"><br>
+              <label><b>Waga</b></label><br>
+              <input type="text" name="weight"><br>
+              <input type="submit" value="Oblicz !">
+            </div>
+            <div class="col-4 wynik">
+              <center><h2>Twój wynik to:</h2></center><br>
+              <center><span class="response"></span></center><br>
+              <center><span class="describe"></span></center>
+            </div>
+          </form>
+
+      </div>
+    <script src="skrypty/licznikBmi.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="skrypty/slider.js"></script>
+  </body>
+</html>
